@@ -1,0 +1,28 @@
+{
+  "name": "rcb-wk18-data-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijasminej/rcb-wk18-data-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijasminej/rcb-wk18-data-scrape/issues"
+  },
+  "homepage": "https://github.com/lijasminej/rcb-wk18-data-scrape#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19",
+    "morgan": "^1.7.0",
+    "request": "^2.72.0"
+  }
+}
